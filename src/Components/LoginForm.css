@@ -1,0 +1,128 @@
+body {
+  height: 100vh; 
+  margin: 0;
+  font-family: Arial, sans-serif; /* Set a cleaner font */
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.login-card {
+  background-color: #fff; /* White background */
+  padding: 2rem;
+  width: 400px;
+  text-align: center;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a raised effect */
+  margin-top:100px;
+}
+
+.login-title {
+  font-size: 1.8rem;
+  color: #4e4e8a;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.remember-me label {
+  margin-left: 0.3rem;
+}
+
+.forgot-password {
+  color: #4e4e8a;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #6a4fed;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.login-button:hover {
+  background-color: #5a3fe0;
+}
+
+.signup-section {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.signup-section a {
+  color: #6a4fed;
+  text-decoration: none;
+}
+
+.signup-section a:hover {
+  text-decoration: underline;
+}
+
+.social-login {
+  text-align: center;
+}
+
+.social-login p {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  color: #6a4fed;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #5a3fe0;
+}
+

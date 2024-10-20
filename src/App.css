@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #4CAF50;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.home, .services, .about, .profile {
+  padding: 2rem;
+}
+
+.footer {
+  background-color: #4CAF50;
+  padding: 1rem;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.services, .about {
+  padding: 2rem;
+  text-align: left;
+}
+
+.services ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.services ul li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
